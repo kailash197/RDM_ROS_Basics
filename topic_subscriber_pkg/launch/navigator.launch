@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="topic_subscriber_pkg" type="navigator_node" name="navigator_node" output="screen"/>
+</launch>
