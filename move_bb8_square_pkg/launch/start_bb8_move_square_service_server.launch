@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="move_bb8_square_pkg" type="move_bb8_square_service_server_node" name="move_bb8_square_service_server_node" output="screen"/>
+</launch>
