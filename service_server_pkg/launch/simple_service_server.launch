@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="service_server_pkg" type="simple_service_server_node" name="simple_service_server_node" output="screen"/>
+</launch>
