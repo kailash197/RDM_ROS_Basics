@@ -1,0 +1,3 @@
+<launch>
+<node pkg="action_client_pkg" type="wait_for_result_test_node" name="wait_for_result_test_node" output="screen"/>
+</launch>
