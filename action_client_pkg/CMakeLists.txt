@@ -172,6 +172,12 @@ target_link_libraries(no_wait_for_result_test_node
   ${catkin_LIBRARIES}
 )
 
+add_executable(cancel_goal_ardrone_action_client_node src/cancel_goal_test.cpp)
+add_dependencies(cancel_goal_ardrone_action_client_node ${cancel_ardrone_action_client_node_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(cancel_goal_ardrone_action_client_node
+  ${catkin_LIBRARIES}
+)
+
 
 
 #############
