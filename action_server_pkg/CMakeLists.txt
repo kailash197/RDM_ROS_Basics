@@ -150,6 +150,11 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
+add_executable(fibonacci_action_server_node src/fibonacci_action_server.cpp)
+add_dependencies(fibonacci_action_server_node ${fibonacci_action_server_node_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(fibonacci_action_server_node
+  ${catkin_LIBRARIES}
+)
 #############
 ## Install ##
 #############
