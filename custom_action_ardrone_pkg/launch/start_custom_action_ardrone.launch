@@ -1,0 +1,3 @@
+<launch>
+<node pkg="custom_action_ardrone_pkg" type="custom_action_ardrone_node" name="custom_action_ardrone_node" output="screen"/> 
+</launch>

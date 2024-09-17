@@ -1,0 +1,7 @@
+# Goal: TAKEOFF or LAND
+string goal
+---
+# empty result: return nothing on completion of the action
+---
+# Feedback: current action that is taking place, once a second
+string feedback
